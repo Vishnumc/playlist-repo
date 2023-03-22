@@ -17,7 +17,7 @@ public class Playlist {
         if (songs.size() == capacity) {
             songs.remove(0);
         }
-        // Add the new song to the end of the playlist
+        // Adding new song to the end of the playlist
         songs.add(song);
     }
 
